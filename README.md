@@ -24,7 +24,7 @@ npm install && npm start
 ### Verification
 Click on the "API" Link
 
-## To Document
+## To Do / To Document
 1. Advantage of layered architecture
 2. Clean up trail & error files
 3. List out the external micro-service API call (only two)
