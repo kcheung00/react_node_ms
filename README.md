@@ -7,4 +7,4 @@ Simple demo for layered APIs call from Web Client to Web Server to Micro-Service
 4. List out the Web Server (node.js) API endpoint (expose to client app)
 5. Update the diagram - add simple workflow 
 
-![image](https://github.com/kcheung00/react_node_ms/blob/main/image.png?raw=true
+![image](https://github.com/kcheung00/react_node_ms/blob/main/image.png?raw=true)
