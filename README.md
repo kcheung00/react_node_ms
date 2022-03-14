@@ -1,5 +1,15 @@
 # react_node_ms
 Simple demo for layered APIs call from Web Client to Web Server to Micro-Services
+## Steps:
+1. Clone the project
+2. Navigate to Web Server
+3. Install & Start
+4. Navigate to Client App
+5. Install & Start
+
+### Verification
+Click on the "API" Link
+
 ## To Document
 1. Advantage of layered architecture
 2. Clean up trail & error files
