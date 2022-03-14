@@ -5,23 +5,21 @@ Simple demo for layered APIs call from Web Client to Web Server to Micro-Service
 ```
 git clone https://github.com/kcheung00/react_node_ms.git
 ```
-3. Navigate to Web Server
+2. Navigate to Web Server
 ```
 cd ./react_node_ms/nodeWebServer
 ```
-5. Install & Start
+3. Install & Start
 ```
-npm install
-npm start
+npm install && npm start
 ```
-7. Navigate to Web Client
+4. Navigate to Web Client
 ```
 cd ./react_node_ms/web_client
 ```
-9. Install & Start
+5. Install & Start
 ```
-npm install
-npm start
+npm install && npm start
 ```
 ### Verification
 Click on the "API" Link
