@@ -14,45 +14,6 @@ app.get("/callAPI_1", (req, res) => {
     res.json({ message: "Make CDC Reporting API 1" });
 });
 
-// app.get("/callAPI_2", (req, res) => {
-//     res.json({ message: "Make CDC Reporting API 2" });
-// });
-
-// app.get("/getMockAPI", (req, res) => {
-//     var optionsget = {
-//         host: 'jsonplaceholder.typicode.com', // here only the domain name
-//         // (no http/https !)
-//         port: 443,
-//         path: '/todos/1', // the rest of the url with parameters if needed
-//         method: 'GET' // do GET
-//     };
-
-//     console.info('Options prepared:');
-//     console.info(optionsget);
-//     console.info('Do the GET call');
-
-//     res.json("Heee");
-
-//     // do the GET request
-//     var reqGet = https.request(optionsget, function (res) {
-//         console.log("statusCode: ", res.statusCode);
-
-//         // uncomment it for header details
-//         console.log("headers: ", res.headers);
-
-//         res.on('data', function (d) {
-//             console.info('GET result:\n');
-//             process.stdout.write(d);
-//             console.info('\n\nCall completed');
-//         });
-//     });
-
-//     reqGet.end();
-//     reqGet.on('error', function (e) {
-//         console.error(e);
-//     });
-// });
-
 app.get("/getMockAPI_2", (req, res) => {
     var URL = 'https://api.riteaid.com/digital/vaccine-provider/states/schedules/NV.ndjson';
     var data = axios.get(URL)
