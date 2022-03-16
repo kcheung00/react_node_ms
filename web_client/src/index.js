@@ -8,6 +8,8 @@ import API01 from './hooks/api01';
 import API02 from './hooks/api02';
 import API03 from './hooks/api03';
 import API04 from './hooks/api04';
+import API05 from './hooks/api05';
+import API06 from './hooks/api06';
 
 ReactDOM.render(
     <Router>
@@ -17,6 +19,8 @@ ReactDOM.render(
             <Route render ={()=> < API02 />} path="/hooks/api02" />
             <Route render ={()=> < API03 />} path="/hooks/api03" />
             <Route render ={()=> < API04 />} path="/hooks/api04" />
+            <Route render ={()=> < API05 />} path="/hooks/api05" />
+            <Route render ={()=> < API06 />} path="/hooks/api06" />
         </div>
     </Router>, document.getElementById('root'));
 
